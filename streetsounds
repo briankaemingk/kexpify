@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import createcache
 import kexp
 import pytz, datetime
 from datetime import timedelta
@@ -8,7 +9,7 @@ from datetime import timedelta
 if __name__ == '__main__':
 
     #Get the date this is being run
-    utc_datetime = datetime.datetime.utcnow()
+    utc_datetime = datetime.datetime.utcnow() - timedelta(days=1)
 
     #Show starts at 5 UTC time
     start_date = utc_datetime.strftime("%Y-%m-%dT05:00:00Z")
