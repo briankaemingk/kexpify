@@ -18,5 +18,3 @@ string6 = 'SPOTIFY_REDIRECT_URI = "http://localhost:8888/callback"'
 file = open("local_config.py", "w") 
 file.write("%s\n\n%s\n%s\n%s\n%s\n%s\n" % (string1, string2, string3, string4, string5, string6))
 file.close() 
-
-import local_config
