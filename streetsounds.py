@@ -1,6 +1,3 @@
-#!/app/.heroku/python/bin/python3
-#!/usr/bin/env python3
-import createcache
 import kexp
 import pytz, datetime
 from datetime import timedelta
